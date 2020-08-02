@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="delivery.DeliveryProcessorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-08-02T21:29:47" hostname="BOG15CP1QG6RD" time="0.004">
+  <properties/>
+  <testcase name="deliverOutOfRangeTest" classname="delivery.DeliveryProcessorTest" time="0.002"/>
+  <testcase name="deliverOrdersTest" classname="delivery.DeliveryProcessorTest" time="0.0"/>
+  <testcase name="deliverOneMealTest" classname="delivery.DeliveryProcessorTest" time="0.001"/>
+  <testcase name="deliverWhenWrongIndicationsTest" classname="delivery.DeliveryProcessorTest" time="0.001"/>
+  <system-out><![CDATA[16:29:47.692 [Test worker] ERROR delivery.process.DeliveryProcessor - Order IAAAAAI out of range for drone 2
+16:29:47.694 [Test worker] ERROR delivery.process.DeliveryProcessor - Indication HIREME! for drone 3 not valid. Please check.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

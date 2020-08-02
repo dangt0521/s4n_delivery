@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reports.FilesProcessorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-08-02T21:29:47" hostname="BOG15CP1QG6RD" time="0.004">
+  <properties/>
+  <testcase name="nullListGeneratingReportTest" classname="reports.FilesProcessorTest" time="0.0"/>
+  <testcase name="fileNotFoundTest" classname="reports.FilesProcessorTest" time="0.0"/>
+  <testcase name="generateReportTest" classname="reports.FilesProcessorTest" time="0.002"/>
+  <testcase name="readFileTest" classname="reports.FilesProcessorTest" time="0.001"/>
+  <system-out><![CDATA[16:29:47.696 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\testFile1.txt
+16:29:47.696 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\testOutPut.txt
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

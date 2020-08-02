@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.13.3'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.13.3'
+    testCompileOnly 'junit:junit:4.12'
+    testCompileOnly "org.assertj:assertj-core:3.11.1"
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine:5.3.1'
+
+}
+
+test {
+    useJUnitPlatform()
+}

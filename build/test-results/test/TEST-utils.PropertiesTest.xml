@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="utils.PropertiesTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-08-02T21:29:47" hostname="BOG15CP1QG6RD" time="0.002">
+  <properties/>
+  <testcase name="propertyNotFoundTest" classname="utils.PropertiesTest" time="0.001"/>
+  <testcase name="propertiesFileNotFoundTest" classname="utils.PropertiesTest" time="0.0"/>
+  <testcase name="readPropertyTest" classname="utils.PropertiesTest" time="0.001"/>
+  <system-out><![CDATA[16:29:47.701 [Test worker] ERROR reports.FilesProcessor - Unable to find test.properties file
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

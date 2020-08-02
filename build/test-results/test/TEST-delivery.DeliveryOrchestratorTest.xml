@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="delivery.DeliveryOrchestratorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-02T21:29:47" hostname="BOG15CP1QG6RD" time="0.505">
+  <properties/>
+  <testcase name="maxCarryingCapacityExceededTest" classname="delivery.DeliveryOrchestratorTest" time="0.447"/>
+  <testcase name="noFileTest" classname="delivery.DeliveryOrchestratorTest" time="0.018"/>
+  <testcase name="emptyFileTest" classname="delivery.DeliveryOrchestratorTest" time="0.014"/>
+  <testcase name="maxSimultaneousDronesNumberExceededTest" classname="delivery.DeliveryOrchestratorTest" time="0.013"/>
+  <testcase name="successfulDeliveriesTest" classname="delivery.DeliveryOrchestratorTest" time="0.012"/>
+  <system-out><![CDATA[16:29:47.602 [Test worker] ERROR delivery.process.DeliveryProcessor - Indication DDDAIHD for drone 1 not valid. Please check.
+16:29:47.608 [Test worker] ERROR delivery.process.DeliveryProcessor - Indication JAIADAD for drone 1 not valid. Please check.
+16:29:47.613 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 4
+16:29:47.613 [Test worker] ERROR delivery.process.DeliveryProcessor - Order AAAAAAA out of range for drone 5
+16:29:47.614 [Test worker] ERROR delivery.process.DeliveryProcessor - Order IAIADAD out of range for drone 5
+16:29:47.617 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 7
+16:29:47.617 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 8
+16:29:47.618 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 9 not found
+16:29:47.618 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 10
+16:29:47.619 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\input\in11.txt
+16:29:47.619 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 11 not found
+16:29:47.620 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 12
+16:29:47.620 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 13
+16:29:47.621 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 14
+16:29:47.621 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 15
+16:29:47.622 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 16
+16:29:47.622 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 17
+16:29:47.622 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\input\in18.txt
+16:29:47.623 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 18 not found
+16:29:47.623 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\input\in19.txt
+16:29:47.623 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 19 not found
+16:29:47.625 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out04.txt
+16:29:47.625 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out07.txt
+16:29:47.625 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out08.txt
+16:29:47.625 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out10.txt
+16:29:47.626 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out12.txt
+16:29:47.626 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out13.txt
+16:29:47.626 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out14.txt
+16:29:47.626 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out15.txt
+16:29:47.627 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out16.txt
+16:29:47.627 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out17.txt
+16:29:47.634 [Test worker] ERROR delivery.process.DeliveryProcessor - Indication DDDAIHD for drone 1 not valid. Please check.
+16:29:47.634 [Test worker] ERROR delivery.process.DeliveryProcessor - Indication JAIADAD for drone 1 not valid. Please check.
+16:29:47.638 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 4
+16:29:47.638 [Test worker] ERROR delivery.process.DeliveryProcessor - Order AAAAAAA out of range for drone 5
+16:29:47.638 [Test worker] ERROR delivery.process.DeliveryProcessor - Order IAIADAD out of range for drone 5
+16:29:47.640 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 7
+16:29:47.641 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 8
+16:29:47.641 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 9 not found
+16:29:47.642 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 10
+16:29:47.642 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\input\in11.txt
+16:29:47.642 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 11 not found
+16:29:47.643 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 12
+16:29:47.643 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 13
+16:29:47.644 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 14
+16:29:47.644 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 15
+16:29:47.645 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 16
+16:29:47.645 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 17
+16:29:47.646 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\input\in18.txt
+16:29:47.646 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 18 not found
+16:29:47.647 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\input\in19.txt
+16:29:47.647 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 19 not found
+16:29:47.649 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out11.txt
+16:29:47.650 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out18.txt
+16:29:47.650 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out19.txt
+16:29:47.652 [Test worker] ERROR delivery.process.DeliveryProcessor - Indication DDDAIHD for drone 1 not valid. Please check.
+16:29:47.653 [Test worker] ERROR delivery.process.DeliveryProcessor - Indication JAIADAD for drone 1 not valid. Please check.
+16:29:47.656 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 4
+16:29:47.657 [Test worker] ERROR delivery.process.DeliveryProcessor - Order AAAAAAA out of range for drone 5
+16:29:47.657 [Test worker] ERROR delivery.process.DeliveryProcessor - Order IAIADAD out of range for drone 5
+16:29:47.659 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 7
+16:29:47.659 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 8
+16:29:47.660 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 9 not found
+16:29:47.660 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 10
+16:29:47.660 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\input\in11.txt
+16:29:47.661 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 11 not found
+16:29:47.661 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 12
+16:29:47.661 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 13
+16:29:47.661 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 14
+16:29:47.662 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 15
+16:29:47.662 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 16
+16:29:47.662 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 17
+16:29:47.663 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\input\in18.txt
+16:29:47.663 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 18 not found
+16:29:47.663 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\input\in19.txt
+16:29:47.663 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 19 not found
+16:29:47.664 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out09.txt
+16:29:47.667 [Test worker] ERROR delivery.process.DeliveryProcessor - Indication DDDAIHD for drone 1 not valid. Please check.
+16:29:47.667 [Test worker] ERROR delivery.process.DeliveryProcessor - Indication JAIADAD for drone 1 not valid. Please check.
+16:29:47.670 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 4
+16:29:47.670 [Test worker] ERROR delivery.process.DeliveryProcessor - Order AAAAAAA out of range for drone 5
+16:29:47.670 [Test worker] ERROR delivery.process.DeliveryProcessor - Order IAIADAD out of range for drone 5
+16:29:47.672 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 7
+16:29:47.673 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 8
+16:29:47.673 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 9 not found
+16:29:47.673 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 10
+16:29:47.674 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\input\in11.txt
+16:29:47.674 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 11 not found
+16:29:47.674 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 12
+16:29:47.674 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 13
+16:29:47.675 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 14
+16:29:47.675 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 15
+16:29:47.675 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 16
+16:29:47.676 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 17
+16:29:47.676 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\input\in18.txt
+16:29:47.676 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 18 not found
+16:29:47.676 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\input\in19.txt
+16:29:47.676 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 19 not found
+16:29:47.677 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out21.txt
+16:29:47.677 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out25.txt
+16:29:47.678 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out28.txt
+16:29:47.678 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\output\out30.txt
+16:29:47.679 [Test worker] ERROR delivery.process.DeliveryProcessor - Indication DDDAIHD for drone 1 not valid. Please check.
+16:29:47.679 [Test worker] ERROR delivery.process.DeliveryProcessor - Indication JAIADAD for drone 1 not valid. Please check.
+16:29:47.682 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 4
+16:29:47.682 [Test worker] ERROR delivery.process.DeliveryProcessor - Order AAAAAAA out of range for drone 5
+16:29:47.683 [Test worker] ERROR delivery.process.DeliveryProcessor - Order IAIADAD out of range for drone 5
+16:29:47.684 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 7
+16:29:47.685 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 8
+16:29:47.685 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 9 not found
+16:29:47.685 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 10
+16:29:47.685 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\input\in11.txt
+16:29:47.686 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 11 not found
+16:29:47.686 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 12
+16:29:47.686 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 13
+16:29:47.686 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 14
+16:29:47.687 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 15
+16:29:47.687 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 16
+16:29:47.687 [Test worker] ERROR delivery.DeliveryOrchestrator - Max carrying capacity exceeded for Drone: 17
+16:29:47.688 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\input\in18.txt
+16:29:47.688 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 18 not found
+16:29:47.688 [Test worker] ERROR reports.FilesProcessor - Error while reading file: src\test\resources\input\in19.txt
+16:29:47.688 [Test worker] ERROR delivery.DeliveryOrchestrator - Delivery file for drone 19 not found
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
